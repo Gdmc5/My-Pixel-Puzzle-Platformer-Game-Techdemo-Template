@@ -1,0 +1,31 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUIFolder":"","%Name":"PauseMenu","children":[
+        {"$GMRUILayer":"v1","%Name":"UILayer_PauseMenu","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"PauseMenu_Panel","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"Paused_UI","alignItems":2,"children":[
+                    {"$GMRInstance":"v4","%Name":"inst_3AE3F19C","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3AE3F19C","objectId":{"name":"obj_paused_game_ui","path":"objects/obj_paused_game_ui/obj_paused_game_ui.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":86.0,},"justifyContent":1,"name":"Paused_UI","nodeColour":4282970709,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":261.0,},},
+                {"$GMRFlexPanel":"","%Name":"Resume_Button","alignItems":2,"children":[
+                    {"$GMRInstance":"v4","%Name":"inst_3C767665","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C767665","objectId":{"name":"obj_button_resume","path":"objects/obj_button_resume/obj_button_resume.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":40.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":80.0,},"justifyContent":1,"name":"Resume_Button","nodeColour":4286990578,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":256.0,},},
+                {"$GMRFlexPanel":"","%Name":"Exit_Button","alignItems":2,"children":[
+                    {"$GMRInstance":"v4","%Name":"inst_A4BB3CD","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A4BB3CD","objectId":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":40.0,},
+                  ],"flexDirection":0,"height":{"unit":3,"value":80.0,},"justifyContent":1,"name":"Exit_Button","nodeColour":4294096968,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":256.0,},},
+              ],"flexDirection":0,"gapRow":20.0,"height":{"unit":1,"value":300.0,},"justifyContent":1,"name":"PauseMenu_Panel","nodeColour":4291250418,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":300.0,},},
+          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_PauseMenu","nodeColour":4294096968,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"locked":false,"name":"PauseMenu","nodeColour":4282970857,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"My Pixel Platformer Game",
+    "path":"My Pixel Platformer Game.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":false,
+}
