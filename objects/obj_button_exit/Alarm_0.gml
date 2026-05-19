@@ -14,5 +14,5 @@ case 99:
 	room_goto(menu_dev);
 	break
 default:
-room_goto(menu_main);
+room_goto(menu_dummy);
 }

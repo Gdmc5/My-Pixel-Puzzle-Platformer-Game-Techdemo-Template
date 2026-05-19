@@ -2,6 +2,8 @@
 // Game State Mode 1 Ingameplay Mode
 if global.game_state_mode = 1
 {
+	// The New Code is bugged so here is the Old Code
+	//draw_text(2, 4, $"Tokens" - currency);
 	draw_text(2, 4, currency);
 	if global.dev_mode = true
 	{

@@ -1,5 +1,6 @@
 /// @description Game Controller Object Step Event Code
-
+// Pause Game Code Stuff
+// if it is Ingameplay Game State Allow the Game to Pause otherwise do nothing
 if global.game_state_mode = 1
 {
 	if keyboard_check_pressed(vk_escape) and game_paused = false
